@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homies - Home Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Homies</h1>
+        <p>Your trusted home service provider</p>
+    </header>
+    <main>
+        <section id="services">
+            <h2>Select a Service</h2>
+            <div class="service" data-service="cook">
+                <h3>Cook</h3>
+                <p>Hire a professional cook for your home.</p>
+            </div>
+            <div class="service" data-service="gardener">
+                <h3>Gardener</h3>
+                <p>Get your garden maintained by experts.</p>
+            </div>
+            <div class="service" data-service="cleaner">
+                <h3>Cleaner</h3>
+                <p>Keep your home spotless with our cleaners.</p>
+            </div>
+        </section>
+        <section id="booking">
+            <h2>Book a Service</h2>
+            <form id="booking-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required>
+                <label for="service">Service:</label>
+                <input type="text" id="service" readonly required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Homies. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
